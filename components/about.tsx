@@ -3,21 +3,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import Link from "next/link";
-import { linkedInLink, githubLink, emailLink } from "./data/links";
+import Title from "./utils/title";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="flex-grow">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
-        <div className="relative pt-32 pb-0 mb-0 md:pt-48 md:pb-0">
+        <div className="relative pt-32 pb-0 mb-0 md:pt-48 md:pb-12">
           {/* Section header */}
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
-            <span>Hello, my name is</span>
-            <h1 className="h1 mt-2 mb-2">
-              <span data-aos="fade-up">Praveen Krishna</span>
-            </h1>
+            <Title title={"About Us"} />
             <div className="flex flex-wrap">
               <div
                 className="w-full text-l text-gray-200 md:w-1/2"
@@ -38,15 +34,9 @@ export default function Hero() {
               </div>
             </div>
             <div className="md:w-1/2 flex space-x-8" data-aos="fade-right">
-              <Link href={linkedInLink}>
-                <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
-              </Link>
-              <Link href={githubLink}>
-                <FontAwesomeIcon icon={faGithub} className="fa-2xl" />
-              </Link>
-              <Link href={emailLink}>
-                <FontAwesomeIcon icon={faEnvelope} className="fa-2xl" />
-              </Link>
+              <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
+              <FontAwesomeIcon icon={faGithub} className="fa-2xl" />
+              <FontAwesomeIcon icon={faEnvelope} className="fa-2xl" />
             </div>
           </div>
         </div>
