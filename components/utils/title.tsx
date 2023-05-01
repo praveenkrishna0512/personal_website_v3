@@ -6,11 +6,11 @@ interface TitleProps {
 
 export default function Title({ title }: TitleProps) {
   return (
-    <div className="flex items-center">
-      <h1 className="h1 mt-2 mb-2 mr-8">
+    <div className="flex items-center mb-6">
+      <h2 className="h2 mt-2 mb-2 mr-4 text-purple-400">
         {title}
-      </h1>
-      <hr className="w-1/2 border-t-2 border-gray-500" />
+      </h2>
+      <hr className="w-0 md:w-1/2 border-t-2 border-gray-500" />
     </div>
   );
 }

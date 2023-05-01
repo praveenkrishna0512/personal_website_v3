@@ -11,7 +11,7 @@ export default function Hero() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
-        <div className="relative pt-32 pb-0 mb-0 md:pt-48 md:pb-0">
+        <div className="relative pt-32 pb-12 mb-0 md:pt-48 md:pb-20">
           {/* Section header */}
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <span>Hello, my name is</span>
@@ -31,10 +31,6 @@ export default function Hero() {
                   National University of Singapore (NUS). Looking forward to
                   contribute to the health-tech space!
                 </p>
-                {/* <p className="mb-4">
-                  In my free time, you will usually catch me lifting weights or running.
-                  But I love staying active in many different ways, including hiking and dancing!
-                </p> */}
               </div>
             </div>
             <div className="md:w-1/2 flex space-x-8" data-aos="fade-right">
