@@ -68,7 +68,7 @@ module.exports = {
       },
       scale: {
         '98': '.98'
-      },
+      }
     },
   },
   plugins: [

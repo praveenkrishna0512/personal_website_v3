@@ -1,13 +1,10 @@
 "use client";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Title from "./utils/title";
 
-export default function Hero() {
+export default function About() {
   return (
-    <section className="flex-grow">
+    <section className="flex-grow mt-4 md:mt-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="relative pt-0 pb-0 mb-0 md:pt-0 md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
@@ -34,8 +31,8 @@ export default function Hero() {
               >
                 <img
                   src="./images/about-me-pic-2.jpg"
-                  alt="Your Name"
-                  className="w-auto h-60 self-center rounded-full"
+                  alt="My Picture!"
+                  className="w-auto h-60 self-center rounded-full border-[6px] border-purple-900 border-double hover:shadow-[18px_10px_25px_-15px_#33363A]"
                 />
               </div>
               <div className="w-full md:w-[70%] mt-4 md:mt-8">
