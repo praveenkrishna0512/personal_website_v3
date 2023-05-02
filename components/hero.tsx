@@ -33,15 +33,15 @@ export default function Hero() {
                 </p>
               </div>
             </div>
-            <div className="md:w-1/2 flex space-x-8" data-aos="fade-right">
+            <div className="md:w-1/2 flex space-x-8 ml-1/2" data-aos="fade-right">
               <Link href={linkedInLink}>
-                <FontAwesomeIcon icon={faLinkedin} className="fa-2xl" />
+                <FontAwesomeIcon icon={faLinkedin} className="fa-xl" />
               </Link>
               <Link href={githubLink}>
-                <FontAwesomeIcon icon={faGithub} className="fa-2xl" />
+                <FontAwesomeIcon icon={faGithub} className="fa-xl" />
               </Link>
               <Link href={emailLink}>
-                <FontAwesomeIcon icon={faEnvelope} className="fa-2xl" />
+                <FontAwesomeIcon icon={faEnvelope} className="fa-xl" />
               </Link>
             </div>
           </div>

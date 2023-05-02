@@ -1,6 +1,6 @@
 "use client";
 
-import TechExperience from "./utils/tech-experience";
+import FullTimeTechExperience from "./utils/full-time-tech-experience";
 import Title from "./utils/title";
 
 export default function TechExperiences() {
@@ -11,7 +11,8 @@ export default function TechExperiences() {
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <Title title={"Tech Experiences"} />
             <div className="md:ml-[0.25rem] md:w-[79%]">
-              <TechExperience
+              <h4 className="h4 text-purple-400 md:mb-8"><em>Internships</em></h4>
+              <FullTimeTechExperience
                 index={1}
                 position={"Software Engineer Intern"}
                 company={"Terraformers"}
@@ -23,7 +24,7 @@ export default function TechExperiences() {
                   "Configured a database and relevant schemas in MongoDB, to store data about users and travel experiences",
                 ]}
               />
-              <TechExperience
+              <FullTimeTechExperience
                 index={2}
                 position={"IT Innovation and UX Research Intern"}
                 company={"Singapore Police Force"}

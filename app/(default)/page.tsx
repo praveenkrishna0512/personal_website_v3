@@ -17,10 +17,11 @@ export default function Home() {
       <Hero />
       <About />
       <TechExperiences />
-      <Features />
+      
+      {/* <Features />
       <Zigzag />
       <Testimonials />
-      <Newsletter />
+      <Newsletter /> */}
     </div>
   );
 }

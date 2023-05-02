@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-interface TechExperienceProps {
+interface FullTimeTechExperienceProps {
   index: number;
   position: string;
   company: string;
@@ -10,13 +10,13 @@ interface TechExperienceProps {
   description: string[];
 }
 
-export default function TechExperience({
+export default function FullTimeTechExperience({
   index,
   position,
   company,
   duration,
   description,
-}: TechExperienceProps) {
+}: FullTimeTechExperienceProps) {
   const [showList, setShowList] = useState(false);
 
   const toggleList = () => {
