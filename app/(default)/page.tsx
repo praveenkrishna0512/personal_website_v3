@@ -9,12 +9,14 @@ import Newsletter from "@/components/newsletter";
 import Zigzag from "@/components/zigzag";
 import Testimonials from "@/components/testimonials";
 import About from "@/components/about";
+import TechExperiences from "@/components/tech-experiences";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <About />
+      <TechExperiences />
       <Features />
       <Zigzag />
       <Testimonials />
