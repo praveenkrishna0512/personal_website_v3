@@ -13,7 +13,7 @@ import TechExperiences from "@/components/tech-experiences";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col">
       <Hero />
       <About />
       <TechExperiences />
@@ -21,6 +21,6 @@ export default function Home() {
       <Zigzag />
       <Testimonials />
       <Newsletter />
-    </>
+    </div>
   );
 }

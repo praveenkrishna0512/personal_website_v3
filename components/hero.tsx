@@ -15,18 +15,18 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <span>Hello, my name is</span>
-            <h1 className="h1 mt-2 mb-2">
+            <h1 className="h1 mt-2 mb-2 font-semibold">
               <span data-aos="fade-up">Praveen Krishna</span>
             </h1>
             <div className="flex flex-wrap">
               <div
-                className="w-full text-l text-gray-200 md:w-1/2"
+                className="w-full text-l text-gray-200"
                 data-aos="fade-left"
               >
-                <h5 className="h4 mb-4 text-purple-400">
+                <h5 className="h4 mb-4 text-purple-400 font-semibold">
                   <em>Exploring Machine Learning x Healthcare</em>
                 </h5>
-                <p className="mb-6  text-justify">
+                <p className="mb-6  text-justify  md:w-3/4">
                   Currently pursuing a Bachelor's in Computer Science at the
                   National University of Singapore (NUS). Looking forward to
                   contribute to the health-tech space!

@@ -4,17 +4,17 @@ import Title from "./utils/title";
 
 export default function About() {
   return (
-    <section className="flex-grow mt-4 md:mt-8">
+    <section className="mt-4 md:mt-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="relative pt-0 pb-0 mb-0 md:pt-0 md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <Title title={"About Me"} />
-            <div className="flex flex-wrap items-center text-justify">
+            <div className="flex flex-wrap items-center text-justify w-[90%] md:w-[80%]">
               <div
-                className="w-full text-l text-gray-200 md:w-5/12"
+                className="w-full text-l text-gray-200 md:w-[75%]"
                 data-aos="fade-left"
               >
-                <p className="mb-6">
+                <p>
                   Hello and welcome to my portfolio site! My name's Praveen, and
                   I am currently pursuing a Computer Science degree in the
                   National University of Singapore (NUS).
@@ -26,16 +26,16 @@ export default function About() {
                 </p>
               </div>
               <div
-                className="w-full md:w-5/12 mt-0 md:mt-0 ml-5 md:ml-16"
+                className="flex justify-end w-full md:w-[25%] md:pr-4"
                 data-aos="fade-right"
               >
                 <img
                   src="./images/about-me-pic-2.jpg"
                   alt="My Picture!"
-                  className="w-auto h-60 self-center rounded-full border-[6px] border-purple-900 border-double hover:shadow-[18px_10px_25px_-15px_#33363A]"
+                  className="w-auto h-40 self-center rounded-full border-[6px] border-purple-900 border-double hover:shadow-[18px_10px_25px_-15px_#33363A]"
                 />
               </div>
-              <div className="w-full md:w-[70%] mt-4 md:mt-8">
+              <div className="w-full md:w-full mt-2 md:mt-4">
                 <p>
                   <span className="font-semibold text-purple-400">
                     So Why Health-Tech?
