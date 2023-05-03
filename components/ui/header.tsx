@@ -9,7 +9,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
+            <Link href="/#home" className="block" aria-label="Cruip">
               <svg
                 className="w-8 h-8 fill-current text-purple-600"
                 viewBox="0 0 32 32"
@@ -26,7 +26,7 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/"
+                  href="/#home"
                   className="btn-sm text-white ml-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Home
@@ -34,7 +34,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#about"
+                  href="/#about"
                   className="btn-sm text-white ml-3 flex items-center transition duration-150 ease-in-out"
                 >
                   About
@@ -42,7 +42,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#tech-experiences"
+                  href="/#tech-experiences"
                   className="btn-sm text-white ml-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Tech

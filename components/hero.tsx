@@ -8,7 +8,7 @@ import { linkedInLink, githubLink, emailLink } from "./data/links";
 
 export default function Hero() {
   return (
-    <section>
+    <section id="home">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
         <div className="relative pt-32 pb-12 md:pt-48 md:pb-20">
