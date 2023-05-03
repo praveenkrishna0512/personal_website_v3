@@ -6,13 +6,13 @@ import Title from "./utils/title";
 
 export default function TechExperiences() {
   return (
-    <section className="mt-4 md:mt-8">
+    <section className="mt-16 md:mt-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        <div className="relative pt-0 pb-0 mb-0 md:pt-0 md:pb-12">
+        <div className="relative md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <Title title={"Tech Experiences"} />
-            <div className="mt-8 md:ml-[0.25rem] md:w-[79%]">
-              <h4 className="h4 text-purple-400 md:mb-8">
+            <div className="mt-4 ml-[0.25rem]">
+              <h4 className="h4 text-purple-400 mb-8">
                 <em>Internships</em>
               </h4>
               <FullTimeTechExperience
@@ -41,8 +41,8 @@ export default function TechExperiences() {
                 tags={["HTML5", "Figma"]}
               />
             </div>
-            <div className="md:ml-[0.25rem] md:w-[79%]">
-              <h4 className="h4 text-purple-400 md:my-8">
+            <div className="ml-[0.25rem]">
+              <h4 className="h4 text-purple-400 mb-8 mt-12 md:mt-8">
                 <em>Projects</em>
               </h4>
               <TechProject

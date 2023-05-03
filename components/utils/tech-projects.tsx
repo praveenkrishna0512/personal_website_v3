@@ -41,7 +41,7 @@ export default function TechProject({
           <span className="mb-2 ml-[0.12rem]">{duration}</span>
           {showList && (
             <div className="text-sm mb-2">
-              <ul className="list-disc space-y-2 mb-2 w-full md:w-full md:ml-4 text-gray-300">
+              <ul className="list-disc space-y-2 mb-3 w-full ml-4 pr-6 md:pr-0 text-gray-300">
                 {description.map((descriptionLine) => {
                   return (
                     <li key={descriptionLine.valueOf()}>{descriptionLine}</li>
@@ -74,7 +74,7 @@ export default function TechProject({
               </div>
             </div>
           )}
-          <div className="flex flex-row items-start space-x-2">
+          <div className="flex flex-row flex-wrap items-start justify-start">
             {tags.map((tag) => {
               return <Tag key={tag.valueOf()} title={tag} />;
             })}

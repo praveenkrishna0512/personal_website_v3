@@ -4,7 +4,7 @@ import Title from "./utils/title";
 
 export default function About() {
   return (
-    <section className="mt-4 md:mt-8">
+    <section className="mt-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="relative pt-0 pb-0 mb-0 md:pt-0 md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
