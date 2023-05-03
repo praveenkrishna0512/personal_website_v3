@@ -11,7 +11,7 @@ export default function About() {
             <Title title={"About Me"} />
             <div className="flex flex-wrap items-center text-justify w-[90%] md:w-[80%]">
               <div
-                className="w-full text-l text-gray-200 md:w-[75%]"
+                className="w-full text-l text-gray-200 md:w-[65%] lg:w-[75%]"
                 data-aos="fade-left"
               >
                 <p>
@@ -26,7 +26,7 @@ export default function About() {
                 </p>
               </div>
               <div
-                className="flex justify-end w-full md:w-[25%] md:pr-4"
+                className="flex justify-center w-full py-8 md:w-[35%] lg:w-[25%] md:pr-2 md:pl-8 md:py-0"
                 data-aos="fade-right"
               >
                 <img
@@ -37,7 +37,7 @@ export default function About() {
               </div>
               <div className="w-full md:w-full mt-2 md:mt-4">
                 <p>
-                  <span className="font-semibold text-purple-400">
+                  <span className="font-semibold text-purple-400 text-left">
                     So Why Health-Tech?
                   </span>
                   <br />
@@ -54,19 +54,21 @@ export default function About() {
                   outcomes.
                 </p>
                 <br />
-                <span className="font-semibold text-purple-400">
-                  Some technologies I used recently
-                </span>
-                <br />
-                <div className="flex flex-row space-x-4 mt-1 md:mt-2 mx-2 md:mx-4 md:w-1/2">
-                  <ul className="flex-1 list-disc space-y-2">
-                    <li>Numpy</li>
-                    <li>PyTorch</li>
-                  </ul>
-                  <ul className="flex-1 list-disc space-y-2">
-                    <li>TensorFlow</li>
-                    <li>OpenCV</li>
-                  </ul>
+                <div className="mt-4 md:mt-0">
+                  <span className="font-semibold text-purple-400">
+                    Tech I used recently
+                  </span>
+                  <br />
+                  <div className="flex flex-row space-x-4 mt-2 mx-4 md:w-1/2">
+                    <ul className="flex-1 list-disc space-y-2">
+                      <li>Numpy</li>
+                      <li>PyTorch</li>
+                    </ul>
+                    <ul className="flex-1 list-disc space-y-2">
+                      <li>TensorFlow</li>
+                      <li>OpenCV</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

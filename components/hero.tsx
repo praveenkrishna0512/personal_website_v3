@@ -11,7 +11,7 @@ export default function Hero() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
-        <div className="relative pt-32 pb-12 mb-0 md:pt-48 md:pb-20">
+        <div className="relative pt-32 pb-12 md:pt-48 md:pb-20">
           {/* Section header */}
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
             <span>Hello, my name is</span>
