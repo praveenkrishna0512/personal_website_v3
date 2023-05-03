@@ -6,7 +6,7 @@ import Title from "./utils/title";
 
 export default function TechExperiences() {
   return (
-    <section className="mt-16 md:mt-8">
+    <section id="tech-experiences" className="mt-16 md:mt-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="relative md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
