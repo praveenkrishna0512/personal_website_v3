@@ -66,6 +66,16 @@ export default function MobileMenu() {
             </Link>
           </li>
           <li>
+            <Link href="#about" className="flex text-purple-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              <h5 className='h5'>About Me</h5>
+            </Link>
+          </li>
+          <li>
+            <Link href="#tech-experiences" className="flex text-purple-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              <h5 className='h5'>Tech Experiences</h5>
+            </Link>
+          </li>
+          <li>
             <Link href="/" className="flex text-purple-500 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               <p>*More Coming Soon!</p>
             </Link>
