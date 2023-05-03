@@ -35,7 +35,7 @@ export default function MobileMenu() {
       {/* Hamburger button */}
       <button
         ref={trigger}
-        className={`hamburger ${mobileNavOpen && 'active'}`}
+        className={`relative hamburger ${mobileNavOpen && 'active'} z-[5]`}
         aria-controls="mobile-nav"
         aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
@@ -56,21 +56,18 @@ export default function MobileMenu() {
       <nav
         id="mobile-nav"
         ref={mobileNav}
-        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
-        style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
+        className="absolute bg-gray-900 z-0 top-0 right-0 h-screen w-full overflow-hidden transition-all duration-700 ease-in-out"
+        style={mobileNavOpen ? { visibility: `visible`, opacity: 1 } : { visibility: `hidden`, opacity: 0 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className='flex flex-col h-full justify-center space-y-10'>
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Sign in
+            <Link href="/" className="flex text-purple-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              <h5 className='h5'>Home</h5>
             </Link>
           </li>
           <li>
-            <Link
-              href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
-            >
-              Sign up
+            <Link href="/" className="flex text-purple-500 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              <p>*More Coming Soon!</p>
             </Link>
           </li>
         </ul>

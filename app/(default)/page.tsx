@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Praveen Krishna",
-  description: "Page description",
+  description: "My Personal Website!",
 };
 
 import Hero from "@/components/hero";
@@ -13,10 +13,6 @@ export default function Home() {
       <Hero />
       <About />
       <TechExperiences />
-      {/* <Features />
-      <Zigzag />
-      <Testimonials />
-      <Newsletter /> */}
     </div>
   );
 }

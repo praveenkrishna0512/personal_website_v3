@@ -76,7 +76,7 @@ export default function TechProject({
           )}
           <div className="flex flex-row items-start space-x-2">
             {tags.map((tag) => {
-              return <Tag title={tag} />;
+              return <Tag key={tag.valueOf()} title={tag} />;
             })}
           </div>
         </div>
