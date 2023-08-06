@@ -17,6 +17,18 @@ export default function TechExperiences() {
               </h4>
               <FullTimeTechExperience
                 index={1}
+                position={"Data Scientist Intern"}
+                company={"Aicadium"}
+                duration={"May 2023 - Aug 2023"}
+                description={[
+                  "Ensured reduction in costs to train YOLOX object detection models by 40%, through implementation of a training pipeline that utilizes SageMaker’s Managed Spot Training",
+                  "Improved performance of Aicadium’s best YOLOX model by 5% for small object detection, through custom image augmentations with Albumentations and hyperparameter tuning with Optuna",
+                  "Adapted the StreamPETR model to perform 3D Multi-view Object Detection using stationary cameras",
+                ]}
+                tags={["Pytorch", "Vision Transformer", "SageMaker", "YOLOX", "Albumentations", "Optuna"]}
+              />
+              <FullTimeTechExperience
+                index={2}
                 position={"Software Engineer Intern"}
                 company={"Terraformers"}
                 duration={"May 2022 - Aug 2022"}
@@ -29,7 +41,7 @@ export default function TechExperiences() {
                 tags={["Flutter", "Node.js", "MongoDB", "AWS EC2"]}
               />
               <FullTimeTechExperience
-                index={2}
+                index={3}
                 position={"IT Innovation and UX Research Intern"}
                 company={"Singapore Police Force"}
                 duration={"May 2021 - Jul 2021"}
@@ -47,6 +59,33 @@ export default function TechExperiences() {
               </h4>
               <TechProject
                 index={1}
+                name={"Automated Essay Grading"}
+                githubLink={
+                  ""
+                }
+                productLink={"https://www.tinyurl.com/AEGreport"}
+                duration={"Feb 2023 - May 2023"}
+                description={[
+                  "Investigated the use of LSTM + CNN layers for automated essay grading based on 6 scoring categories",
+                ]}
+                tags={["LSTM", "CNN", "BERT"]}
+              />
+              <TechProject
+                index={2}
+                name={"Docedex"}
+                githubLink={
+                  "https://github.com/AY2223S2-CS2103T-F12-1/tp"
+                }
+                productLink={""}
+                duration={"Feb 2023 - May 2023"}
+                description={[
+                  "Architected and developed the UI and Storage components of a desktop patient management system using Java",
+                  "Curated a comprehensible User Guide and Developer Guide in Markdown, with appropriate use of UML diagrams",
+                ]}
+                tags={["Java", "JavaFX", "PlantUML"]}
+              />
+              <TechProject
+                index={3}
                 name={"Guess Your Digit!"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/guess-your-digit"
@@ -60,7 +99,7 @@ export default function TechExperiences() {
                 tags={["PyTorch", "NumPy"]}
               />
               <TechProject
-                index={2}
+                index={4}
                 name={"JustShareLah!"}
                 githubLink={"https://github.com/summerthia02/JustShareLah"}
                 productLink={""}
@@ -74,7 +113,7 @@ export default function TechExperiences() {
                 tags={["Flutter", "Firebase"]}
               />
               <TechProject
-                index={3}
+                index={5}
                 name={"Shan Royale Bot"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/shan-royale-2022"
@@ -87,7 +126,7 @@ export default function TechExperiences() {
                 tags={["Python", "Telegram"]}
               />
               <TechProject
-                index={4}
+                index={6}
                 name={"Interseed.co"}
                 githubLink={""}
                 productLink={"https://app.interseed.co"}
@@ -99,7 +138,7 @@ export default function TechExperiences() {
                 tags={["React.js", "MongoDB", "Node.js", "React-Bootstrap"]}
               />
               <TechProject
-                index={5}
+                index={7}
                 name={"Jio Cup"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/JioCup2021"

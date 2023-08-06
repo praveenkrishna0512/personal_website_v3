@@ -58,7 +58,7 @@ export default function About() {
                   outcomes.
                 </p>
                 <br />
-                <div className="mt-4 md:mt-0">
+                {/* <div className="mt-4 md:mt-0">
                   <span className="font-semibold text-purple-400">
                     Tech I used recently
                   </span>
@@ -73,7 +73,7 @@ export default function About() {
                       <li>OpenCV</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
