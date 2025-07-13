@@ -24,12 +24,13 @@ export default function Hero() {
                 data-aos="fade-left"
               >
                 <h5 className="h4 mb-4 text-purple-400 font-semibold">
-                  <em>Exploring Machine Learning x Healthcare</em>
+                  <em>Exploring LLMs x Social Impact</em>
                 </h5>
+                <p className="mb-2  text-justify  md:w-3/4">
+                  Co-founder & CTO @ GrowtricsAI
+                </p>
                 <p className="mb-6  text-justify  md:w-3/4">
-                  Currently pursuing a Bachelor's in Computer Science at the
-                  National University of Singapore (NUS). Looking forward to
-                  contribute to the health-tech space!
+                  Working on a digital education platform with written assessments, automatic grading, and interactive AI tutoring. All at your fingertips.
                 </p>
               </div>
             </div>

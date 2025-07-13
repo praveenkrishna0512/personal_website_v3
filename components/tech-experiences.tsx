@@ -10,26 +10,51 @@ export default function TechExperiences() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="relative md:pb-12">
           <div className="max-w-5xl mx-auto pb-12 md:pb-16" data-aos="fade-up">
-            <Title title={"Tech Experiences"} />
+            <Title title={"Experiences"} />
             <div className="mt-4 ml-[0.25rem]">
               <h4 className="h4 text-purple-400 mb-8">
-                <em>Internships</em>
+                <em>Work Experiences</em>
               </h4>
               <FullTimeTechExperience
                 index={1}
-                position={"Data Scientist Intern"}
+                position={"Cofounder + CTO"}
+                company={"GrowtricsAI"}
+                duration={"Jul 2024 - Present"}
+                description={[
+                  "Designing and implementing numerous LLM agentic workflows, involving Multi-Agent Orchestration, Structured Outputs, Reasoning, Vision, Realtime voice API, to power Growtrics' core business usecases. Usecases include but not limited to: Automatic Grading, Live Handwriting Recognition, Video Generation, Realtime Voice AI Tutoring, Learning Resource Generation.",
+                  "Training/Finetuning a variety of models, from CNNs to Transformers, to spearhead accuracy improvements in our handwriting recognition system.",
+                  "Architecting and building all internal and external apps used within Growtrics, and all its associated backend endpoints, primarily using Flutter, Firebase, and Flask.",
+                  "Leveraging broad tech expertise to aid in direction setting, product planning and operational activities alongside co-founder"
+                ]}
+                tags={["Automated Grading", "Handwriting Recognition", "Video Generation", "Realtime Voice AI Tutoring", "Learning Resource Generation"]}
+              />
+              <FullTimeTechExperience
+                index={2}
+                position={"Data Scientist"}
                 company={"Aicadium"}
                 duration={"May 2023 - Aug 2023"}
                 description={[
-                  "Ensured reduction in costs to train YOLOX object detection models by 40%, through implementation of a training pipeline that utilizes SageMaker’s Managed Spot Training",
-                  "Improved performance of Aicadium’s best YOLOX model by 5% for small object detection, through custom image augmentations with Albumentations and hyperparameter tuning with Optuna",
+                  "Ensured reduction in costs to train YOLOX object detection models by 40%, through implementation of a training pipeline that utilizes SageMaker's Managed Spot Training",
+                  "Improved performance of Aicadium's best YOLOX model by 5% for small object detection, through custom image augmentations with Albumentations and hyperparameter tuning with Optuna",
                   "Adapted the StreamPETR model to perform 3D Multi-view Object Detection using stationary cameras",
                 ]}
                 tags={["Pytorch", "Vision Transformer", "SageMaker", "YOLOX", "Albumentations", "Optuna"]}
               />
               <FullTimeTechExperience
-                index={2}
-                position={"Software Engineer Intern"}
+                index={3}
+                position={"Head of Programmes"}
+                company={"Access Singapore (NGO)"}
+                duration={"Feb 2021 - May 2023"}
+                description={[
+                  "Led a 10-man team to design and execute career exploration programmes for underprivileged students.",
+                  "Mentored team members through frequent 1-on-1s, to work through their struggles and uplift team morale.",
+                  "Developed a set of training programmes and team assets, to ensure smooth onboarding of newcomers.",
+                ]}
+                tags={["Leadership", "Mentoring", "Career Education"]}
+              />
+              <FullTimeTechExperience
+                index={4}
+                position={"Software Engineer"}
                 company={"Terraformers"}
                 duration={"May 2022 - Aug 2022"}
                 description={[
@@ -41,7 +66,7 @@ export default function TechExperiences() {
                 tags={["Flutter", "Node.js", "MongoDB", "AWS EC2"]}
               />
               <FullTimeTechExperience
-                index={3}
+                index={5}
                 position={"IT Innovation and UX Research Intern"}
                 company={"Singapore Police Force"}
                 duration={"May 2021 - Jul 2021"}
@@ -59,6 +84,28 @@ export default function TechExperiences() {
               </h4>
               <TechProject
                 index={1}
+                name={"Cyberlife"}
+                githubLink={""}
+                productLink={""}
+                duration={"Jul 2023 - Sep 2023"}
+                description={[
+                  "Developed a mobile app on Flutter that can reduce consultation times in spine clinics by 10%, through AI-powered triaging."
+                ]}
+                tags={["Flutter", "Healthcare"]}
+              />
+              <TechProject
+                index={2}
+                name={"Synthetic generation of brain MRI scans"}
+                githubLink={"https://github.com/owen-yap/4catalyzer-hackathon"}
+                productLink={""}
+                duration={"Jul 2023 - Jul 2023"}
+                description={[
+                  "Fine-tuned Stable Diffusion with InstructPix2Pix pipeline to curate synthetic brain MRI scans with inserted stroke lesions."
+                ]}
+                tags={["Stable Diffusion", "InstructPix2Pix", "MRI"]}
+              />
+              <TechProject
+                index={3}
                 name={"Automated Essay Grading"}
                 githubLink={
                   ""
@@ -71,7 +118,7 @@ export default function TechExperiences() {
                 tags={["LSTM", "CNN", "BERT"]}
               />
               <TechProject
-                index={2}
+                index={4}
                 name={"Docedex"}
                 githubLink={
                   "https://github.com/AY2223S2-CS2103T-F12-1/tp"
@@ -85,7 +132,7 @@ export default function TechExperiences() {
                 tags={["Java", "JavaFX", "PlantUML"]}
               />
               <TechProject
-                index={3}
+                index={5}
                 name={"Guess Your Digit!"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/guess-your-digit"
@@ -99,7 +146,7 @@ export default function TechExperiences() {
                 tags={["PyTorch", "NumPy"]}
               />
               <TechProject
-                index={4}
+                index={6}
                 name={"JustShareLah!"}
                 githubLink={"https://github.com/summerthia02/JustShareLah"}
                 productLink={""}
@@ -108,12 +155,12 @@ export default function TechExperiences() {
                   "Co-created a mobile app using Flutter and Firebase, to serve as a communal sharing platform within NUS",
                   "Implemented extensive unit testing to ensure intended functionality of our app",
                   "Leveraged GitHub Actions to automatically verify that no build errors exist, before pushing the builds to Releases",
-                  "Conducted regular code reviews with my team, to learn from our mistakes and keep updated on everyone’s tasks",
+                  "Conducted regular code reviews with my team, to learn from our mistakes and keep updated on everyone's tasks",
                 ]}
                 tags={["Flutter", "Firebase"]}
               />
               <TechProject
-                index={5}
+                index={7}
                 name={"Shan Royale Bot"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/shan-royale-2022"
@@ -126,7 +173,7 @@ export default function TechExperiences() {
                 tags={["Python", "Telegram"]}
               />
               <TechProject
-                index={6}
+                index={8}
                 name={"Interseed.co"}
                 githubLink={""}
                 productLink={"https://app.interseed.co"}
@@ -138,7 +185,7 @@ export default function TechExperiences() {
                 tags={["React.js", "MongoDB", "Node.js", "React-Bootstrap"]}
               />
               <TechProject
-                index={7}
+                index={9}
                 name={"Jio Cup"}
                 githubLink={
                   "https://github.com/praveenkrishna0512/JioCup2021"
